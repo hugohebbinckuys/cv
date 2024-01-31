@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         symphony : "La bonne maitrise de Php m'a permis de bien apréhender le Framework Symphony qui n'est pas tout à fait intuitif dès le départ. La maitrise de cet outils pour être plus performant est un réel atout. Nous avons un projet à réaliser en fin d'année qui peut suivre le projet du semestre précédent pour approfondir et développer plus de fonctionnalités. ",
          
-        linux : "Nous avons la chance d'avoir un DualBoot sur notre ordinateur 'pro' avec Windows, et Linux via Ubuntu. Ce qui nous a permis d'avoir de << Système d'exploitation >> pour étudier notamment le bash en ligne de commandes. <br><br> Nous avons eu également un cours de << gestion de projet >> qui nous a permis d'expérimenter Git et Github en ligne de commandes également. C'est une très bonne chose d'avoir eu des cours sur linux et Github pour notre apprentissage.  "
+        linux : "Nous avons la chance d'avoir un DualBoot sur notre ordinateur 'pro' avec Windows, et Linux via Ubuntu. Ce qui nous a permis d'avoir deux << Système d'exploitation >> pour étudier notamment le bash en ligne de commandes. <br><br> Nous avons eu également un cours de << gestion de projet >> qui nous a permis d'expérimenter Git et Github en ligne de commandes également. C'est une très bonne chose d'avoir eu des cours sur linux et Github pour notre apprentissage.  "
     }
 
     let langage = this.querySelectorAll(".langage");
