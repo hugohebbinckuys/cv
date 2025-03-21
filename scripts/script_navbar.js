@@ -70,7 +70,7 @@ document.addEventListener("DOMContentLoaded", function () {
     })
 
 let projet_selectionnes = {
-    projet_web1 : "Mon premier projet web était mon CV en Html et Css. Je n'ai utilisé ni Javascript ni Bootstrap ni aucun autre langage/outils. <br><br> Il est plutôt rudimentaire et simple. J'ai voulu mettre en place le maximum d'animations et de fonctionnalités bien que limité par le langage et mes compétences à l'époque. J'ai donc mis plusieurs lien cliquables et des animations basiques en Css pour rendre le site le plus agréable possible. <br><br> Si vous voulez aller voir mon premier CV, vous pouvez directement cliquer sur l'image pour être redirigé vers mon Github ! ", 
+    projet_web1 : "Voici le projet le plus abouti. Développé avec un ami en python et vuejs, l'objectif est le suivant : Donner une visibilité aux streamers peu ou pas connus du grand public. En quelques mots, nous avons voulu utiliser la visibilité qu'offre Tiktok à ses créateurs, ce qui représente un avantage à ne pas négliger. Alors pourquoi ne pas trouver une solution totalement automatisé pour publier ses clips en trois clics ? Voici TwitokBot. ", 
     projet_web2 : "Ce deuxième 'vrai' projet Web est bien plus développé, bien que pas entièrement terminé. En effet, il était dans le cadre du cours de Php et nous a permis de mettre en place tout un tas de fonctionnalités pour les utilisateurs. <br><br> J'ai décidé de faire le site de mon club de foot. Ce dernier permet de mettre en lumière les bénévoles, joueurs et entraineurs du club qui ne sont que très brièvement apparents et sans détails sur les réseaux etc. J'ai voulu, comme les grands clubs mettre en lumière les équipes de jeunes (et moins jeunes) et les adhérents de l'association, ainsi que les actualités du club, les résultats ... ", 
     projet_c : "J'ai réalisé en binôme un projet en C, sans bibliothèques externes (sauf les 2 bibliothèques élémentaires), qui consistait à proposer à l'utilisateur la conception d'une map en ligne de commande pour un Donjon Crawler. Nous avons donc proposé tout un tas de fonctionnalités comme la création du donjon et ses dimensions, la création de salles dans le donjon, l'insertion de monstres, de portes , de couloirs... <br><br> Je vous invite à aller voir, d'abord les consignes du projet qui vous permettront d'y voir plus clair, et surtout notre projet final en cliquant, comme pour les deux projets précédents sur la photo. "
 }
@@ -262,7 +262,7 @@ let projet_selectionnes = {
         })
         proj.addEventListener("click", function() {
             if (proj.getAttribute("id") == "projet_web1"){
-                window.open("https://github.com/hugohebbinckuys/cvHugo1ereAnnee", "_blank"); 
+                window.open("https://github.com/Boj4ckk/GROOT", "_blank"); 
             }
             if (proj.getAttribute("id") == "projet_web2"){
                 window.open("https://github.com/hugohebbinckuys/siteClubFctv", "_blank"); 
